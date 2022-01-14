@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "405895943582",
+    "firebase_url": "https://mtnappp.firebaseio.com",
+    "project_id": "mtnappp",
+    "storage_bucket": "mtnappp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405895943582:android:cb832f66ddb31c05ad328f",
+        "android_client_info": {
+          "package_name": "com.example.shareme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVytp8wuthCNEiFH8dkw0YStPEyF4eXYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405895943582:android:4d43e09974ddda13ad328f",
+        "android_client_info": {
+          "package_name": "com.example.shareoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVytp8wuthCNEiFH8dkw0YStPEyF4eXYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405895943582:android:9b9a52f8f3b1ae2dad328f",
+        "android_client_info": {
+          "package_name": "com.inchub.bookinpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405895943582-0k4f8nkqucoae0lahhgs195gl2abhbn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inchub.bookinpal",
+            "certificate_hash": "078a1f74b70d5ecf6b6ae4fcea257aca4987e7a9"
+          }
+        },
+        {
+          "client_id": "405895943582-gli2n25id6c2kcee8ln2tfnqnjpbq2kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inchub.bookinpal",
+            "certificate_hash": "41e1cf2460917e78bdc36864e76550c34b14c3d5"
+          }
+        },
+        {
+          "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVytp8wuthCNEiFH8dkw0YStPEyF4eXYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405895943582-3bjhv1qc4itdphrq2h2uvbh8n6nneg0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

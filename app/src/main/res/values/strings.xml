@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BookINpal</string>
+
+    <string name="supporting">Greyhound divisively hello coldly wonderfully marginally far upon excluding.</string>
+
+    <string name="expanded_supporting">I\'m a thing. But, like most politicians, he promised more than he could deliver. You won\'t have time for sleeping, soldier, not with all the bed making you\'ll be doing. Then we\'ll go with that data file! Hey, you add a one and two zeros to that or we walk! You\'re going to do his laundry? I\'ve got to find a way to escape.</string>
+
+    <string-array name="Home">
+        <item>Contracts</item>
+        <item>Prepaid</item>
+        <item>Fibre</item>
+        <item>Customer Complaints</item>
+        <item>MTN Business</item>
+        <item>Gobot</item>
+        <item>Everywhere we go </item>
+    </string-array>
+
+    <string-array name="description">
+        <item>For all your MTN Contract customer queries</item>
+        <item>For all Prepaid customer queries</item>
+        <item>For all Household and Enterprise Fibre customer queries</item>
+        <item>For all your MTN complaints queries</item>
+        <item>For all MTN Business customer queries</item>
+        <item>Book a video or voice call meeting with any of our agents for assistance</item>
+        <item>Refer and assist people in joining the best network in africa and earn some commission on the side </item>
+
+    </string-array>
+
+    <string-array name="spinnerItems">
+        <item>One Person Trip Booking</item>
+        <item>Family Trip Booking</item>
+    </string-array>
+
+    <string-array name="spinnerItems1">
+        <item>One Person Holiday Booking</item>
+        <item>Family Holiday Booking</item>
+    </string-array>
+
+    <string-array name="spinnerItems2">
+        <item>Mobile Contract Query</item>
+        <item>Hardware Contract Query</item>
+    </string-array>
+
+    <string-array name="spinnerItems3">
+        <item>Portable wifi Query</item>
+        <item>4G Wifi Query</item>
+        <item>5G Fibre Query</item>
+    </string-array>
+
+    <string-array name="spinnerItems4">
+        <item>Mobile number complaints</item>
+        <item>Cell phone repairs</item>
+        <item>Hardware repairs</item>
+    </string-array>
+
+    <string-array name="spinnerItems5">
+        <item>MTN Business Query</item>
+        <item>SMME Query</item>
+        <item>Programs</item>
+    </string-array>
+
+</resources>
