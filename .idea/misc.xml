@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/color_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_contracts.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/activity_every_where_we_go.xml" value="0.20729166666666668" />
         <entry key="app/src/main/res/layout/activity_gobot.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11018518518518519" />
-        <entry key="app/src/main/res/layout/activity_package_details.xml" value="0.17980072463768115" />
-        <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_package_details.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_prepaid.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/my_row.xml" value="0.2509057971014493" />
         <entry key="app/src/main/res/menu/ex_menu.xml" value="0.24814814814814815" />
       </map>

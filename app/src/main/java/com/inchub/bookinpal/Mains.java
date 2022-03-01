@@ -8,6 +8,61 @@ public class Mains {
     private String ImageUrls;
     private String ImageUrlz;
 
+
+    private String InBio;
+    private String OutMoney;
+    private String OutBio;
+    private String Tips;
+    private String HighGood;
+
+    public String getInBio() {
+        return InBio;
+    }
+
+    public void setInBio(String inBio) {
+        InBio = inBio;
+    }
+
+    public String getOutMoney() {
+        return OutMoney;
+    }
+
+    public void setOutMoney(String outMoney) {
+        OutMoney = outMoney;
+    }
+
+    public String getOutBio() {
+        return OutBio;
+    }
+
+    public void setOutBio(String outBio) {
+        OutBio = outBio;
+    }
+
+    public String getTips() {
+        return Tips;
+    }
+
+    public void setTips(String tips) {
+        Tips = tips;
+    }
+
+    public String getHighGood() {
+        return HighGood;
+    }
+
+    public void setHighGood(String highGood) {
+        HighGood = highGood;
+    }
+
+    public Mains(String inBio, String outMoney, String outBio, String tips, String highGood) {
+        InBio = inBio;
+        OutMoney = outMoney;
+        OutBio = outBio;
+        Tips = tips;
+        HighGood = highGood;
+    }
+
     public String getImageUrlz() {
         return ImageUrlz;
     }

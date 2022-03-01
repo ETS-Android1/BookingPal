@@ -9,17 +9,12 @@
 
     <item android:id="@+id/items2"
         android:icon="@drawable/ic_baseline_chat_24"
-        android:title="Travel Booking"
+        android:title="Add Payment Note"
         app:showAsAction="never"/>
 
     <item android:id="@+id/items3"
         android:icon="@drawable/ic_baseline_chat_24"
-        android:title="Holiday Booking"
-        app:showAsAction="never"/>
-
-    <item android:id="@+id/items4"
-        android:icon="@drawable/ic_baseline_chat_24"
-        android:title="House Swap"
+        android:title="Add Sale Note"
         app:showAsAction="never"/>
 
     <item android:id="@+id/items5"

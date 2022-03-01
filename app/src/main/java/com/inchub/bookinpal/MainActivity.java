@@ -78,9 +78,12 @@ public class MainActivity extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull MyViewHolder holder, final int position, @NonNull Mains model) {
                 holder.textView1.setText(model.getPackageName());
                 holder.textView2.setText(model.getPackageDestination());
-                holder.textView3.setText(model.getPackageBio());
+                holder.textView3.setText(model.getPackageStops());
+                holder.textView4.setText(model.getOutMoney());
+                holder.textView5.setText(model.getPackageBio());
+                
 
-                Picasso.get().load(model.getImageUrl()).into(holder.imageView);
+                Picasso.get().load(model.getImageUrls()).into(holder.imageView);
                 Picasso.get().load(model.getImageUrls()).into(holder.imageView2);
 
                 holder.v.setOnClickListener(new View.OnClickListener() {
@@ -133,9 +136,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Prepaid.class));
                 return true;
 
-            case R.id.items4:
-                startActivity(new Intent(getApplicationContext(), EveryWhereWeGo.class));
-                return true;
 
             case R.id.items5:
                 startActivity(new Intent(getApplicationContext(), Gobot.class));

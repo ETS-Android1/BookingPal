@@ -2,8 +2,12 @@ package com.inchub.bookinpal;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +30,14 @@ public class PackageDetails extends AppCompatActivity {
     TextView textView4;
     Button btnMail;
 
+    TextView textView5;
+    TextView textView6;
+    TextView textView7;
+    TextView textView8;
+    TextView textView9;
+
+
+
     DatabaseReference ref;
 
     @Override
@@ -33,13 +45,17 @@ public class PackageDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_package_details);
 
-        imageView = findViewById(R.id.packView);
+
         imageView1 = findViewById(R.id.packViews);
-        imageView2 = findViewById(R.id.packView2);
         textView1 = findViewById(R.id.textView6);
         textView2 = findViewById(R.id.textView7);
         textView3 = findViewById(R.id.textView8);
         textView4 = findViewById(R.id.textView9);
+        textView5 = findViewById(R.id.textView10);
+        textView6 = findViewById(R.id.textView11);
+        textView7 = findViewById(R.id.textView12);
+        textView8 = findViewById(R.id.textView14);
+        textView9 = findViewById(R.id.textView16);
         btnMail = findViewById(R.id.bookbutton);
 
         ref = FirebaseDatabase.getInstance().getReference().child("Mains");
@@ -57,17 +73,24 @@ public class PackageDetails extends AppCompatActivity {
                     String PackageBio = snapshot.child("PackageBio").getValue().toString();
                     String PackageStops = snapshot.child("PackageStops").getValue().toString();
 
-                    String ImageUrl = snapshot.child("ImageUrl").getValue().toString();
-                    String ImageUrls = snapshot.child("ImageUrls").getValue().toString();
-                    String ImageUrlz = snapshot.child("ImageUrlz").getValue().toString();
+                    String InBio = snapshot.child("InBio").getValue().toString();
+                    String OutMoney = snapshot.child("OutMoney").getValue().toString();
+                    String OutBio = snapshot.child("OutBio").getValue().toString();
+                    String Tips = snapshot.child("Tips").getValue().toString();
+                    String HighGood = snapshot.child("HighGood").getValue().toString();
 
-                    Picasso.get().load(ImageUrl).into(imageView);
+                    String ImageUrls = snapshot.child("ImageUrls").getValue().toString();
+
                     Picasso.get().load(ImageUrls).into(imageView1);
-                    Picasso.get().load(ImageUrlz).into(imageView2);
                     textView1.setText(PackageName);
                     textView2.setText(PackageDestination);
                     textView3.setText(PackageBio);
                     textView4.setText(PackageStops);
+                    textView5.setText(InBio);
+                    textView6.setText(OutMoney);
+                    textView7.setText(OutBio);
+                    textView8.setText(HighGood);
+                    textView9.setText(Tips);
 
                 }
 
@@ -82,7 +105,14 @@ public class PackageDetails extends AppCompatActivity {
         btnMail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),CustomerComplaints.class));
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:0794363314"));
+
+                if (ActivityCompat.checkSelfPermission(PackageDetails.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(callIntent);
             }
         });
     }
